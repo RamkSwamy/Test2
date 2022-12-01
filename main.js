@@ -229,5 +229,5 @@ function validateZipcode()
  return (validFirstname && validLastname && validEmail && validPhone && validUsername && validPassword && validAddress && validCity && validState && validCountry && validZipcode);
 
 */
- return (validFirstname);
+ return (validFirstname());
 }
